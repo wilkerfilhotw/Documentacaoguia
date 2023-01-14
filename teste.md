@@ -1,3 +1,3 @@
 # Teste
 ---
-Adicone o texto aqui
+Adicione o texto aqui
