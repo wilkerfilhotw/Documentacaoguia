@@ -17,3 +17,34 @@ Na interface do P.O deverá aparecer os pedidos de devolução, esses devem ser 
   * Requisito 1.2 - Autorização
 Após a seleção dos pedidos a serem liberados, no sistema deverá aparecer um botão de ação, que confirme a autorização. Ao ocorrer a liberação, o sistema deve verificar se o produto já foi enviado, prosseguindo somente caso a resposta seja positiva;
 ---
+# Documentação Api Blueprint
+
+FORMAT: A1
+
+## API de filmes
+
+Este é um exemplo de API Blueprint que descreve uma API de filmes.
+
+## Group Filmes
+
+Recursos relacionados a filmes na API.
+
+### Filme collection [/movies]
+
+#### List all Movies [GET]
+
+Liste os filmes na ordem inversa da publicação.
+~~~
+ Response 200 (application/json)
+
+    + Attributes (array[Movie])
+~~~
+
+### Estrutura de Dados
+
+#### Filme
+~~~
++ id: 810b43d0-fc0d-4199-8a79-25b471c880bf (string, required)
++ title: Avengers: Endgame (string, required)
+~~~
++ description (string)
